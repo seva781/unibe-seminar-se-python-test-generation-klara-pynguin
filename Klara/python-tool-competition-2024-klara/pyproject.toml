@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-tool-competition-2024-klara"
+version = "0.1.0"
+description = "Python Tool Competition 2024 implementation using Klara"
+authors = ["Nicolas Erni <gann@zhaw.ch>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-tool-competition-2024 = "^0.1.0"
+klara = "^0.6.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins."python_tool_competition_2024.test_generators"]
+klara = "python_tool_competition_2024_klara.generator:KlaraTestGenerator"
