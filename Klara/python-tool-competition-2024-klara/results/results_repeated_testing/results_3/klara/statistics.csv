@@ -1,0 +1,9 @@
+target,successful ratio,files,successful files,line coverage,lines,covered lines,branch coverage,branches,covered branches,mutation score,mutants,killed mutants
+Quicksort.py,0.0,1,0,0.0,7,0,0.0,6,0,0.0,50,0
+example_1.py,1.0,1,1,1.0,4,4,1.0,0,0,1.0,0,0
+example_2.py,1.0,1,1,1.0,6,6,1.0,2,2,1.0,21,21
+example_3.py,1.0,1,1,1.0,6,6,1.0,2,2,1.0,21,21
+example_4.py,0.0,1,0,0.0,9,0,0.0,6,0,0.0,27,0
+original_example.py,1.0,1,1,1.0,6,6,1.0,4,4,0.6578947368421053,38,25
+two_sum.py,0.0,1,0,0.0,8,0,0.0,4,0,0.0,13,0
+total,0.5714285714285714,7,4,0.4782608695652174,46,22,0.3333333333333333,24,8,0.3941176470588235,170,67

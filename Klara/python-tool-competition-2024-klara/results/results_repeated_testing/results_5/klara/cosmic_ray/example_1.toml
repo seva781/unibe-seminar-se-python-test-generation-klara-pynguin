@@ -1,0 +1,7 @@
+[cosmic-ray]
+module-path = "/home/dominik/Uni/HS2023/Seminar_Software_Engineering/test_generator/klara-venv/python-tool-competition-2024-klara/targets/example_1.py"
+timeout = 300
+test-command = "pytest --exitfirst /home/dominik/Uni/HS2023/Seminar_Software_Engineering/test_generator/klara-venv/python-tool-competition-2024-klara/results/klara/generated_tests/test_example_1.py"
+
+[cosmic-ray.distributor]
+name = "local"
